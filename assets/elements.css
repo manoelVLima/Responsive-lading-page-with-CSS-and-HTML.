@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+:root{
+    --primary-color: #0a1128;
+    --white-color: #fff;
+    --gap: 3rem;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem; 
+    line-height: 1.5; 
+    
+}
+.section{
+    min-height: 100vh;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+}h2{
+    
+    font-size: 6rem;
+    margin-bottom: 5rem;
+    line-height: 1.2;
+    text-transform: 1.2;
+}h3{
+    font-size: 5rem;
+}h4{
+    font-size: 4.5rem;
+}h5{
+    font-size: 4rem;
+}
+h6{
+    font-size: 3.5rem;
+}
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+p{
+    margin-bottom: 3rem;
+    
+    
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    min-width: 36rem;
+    
+    
+}
+table caption{
+    font-style: italic;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+table td, table th{
+    padding: 1rem;
+    text-align: left;
+    border: 0.1rem solid rgb(0, 28, 37);
+    white-space: nowrap;
+   
+    
+}
+tfoot td, table th{
+    background-color: rgb(38, 101, 122);
+    text-align: left;
+}
+body .full-width{
+    width: 100%;
+    flex: 1 1 100%;
+}
+.back-to-top{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: white;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transform: rotate(-90deg);
+    border: 0.1rem solid var(--primary-color);
+}
